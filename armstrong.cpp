@@ -21,7 +21,7 @@ else
 {
     cout<<"Its not a armstrong";
 }
-cout<<"Abhi";
+cout<<"Abhi verma";
 
     return 0;
 }
