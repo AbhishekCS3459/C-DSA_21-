@@ -3,30 +3,45 @@
 // then it is pythogoras triplet
 #include<iostream>
 using namespace std;
-bool yespythogoras(int x, int y, int z){
-    if (z*z==x*x+y*y)
+bool pythogoras(int x,int y, int z){
+    int a= max(x,max(y,z));
+    int b,c;
+    if (a==x)
+    {
+        b=y;
+        c=z;
+    }
+    else if (a==y)
+    {
+        b=z;
+        c=x;
+    }
+    else
+    {
+        c=x;
+        b=z;
+    }
+    if (a*a==b*b + c*c)
     {
         return true;
     }
-    else
-    {
-        return false;
-    }
-    
+    return false;
 }
 int main(int argc, char const *argv[])
 {
-    int a,b,c;
-    cin>>a>>b>>c;
-    
-    if (yespythogoras(a,b,c))
+    int t,d,v;
+    cin>>t>>d>>v;
+    if (pythogoras(t,d,v))
     {
         cout<<"Yes it is a pythogoras triplet";
+
     }
     else
     {
-        cout<<"Its not a pythogoras triplet";
+        cout<<"It is not a pythogoras triplet";
     }
+    
     
     return 0;
 }
+
