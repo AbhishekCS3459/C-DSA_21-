@@ -1,1 +1,1 @@
-{"name":"Local: decimaltobinnary","url":"d:\\C++ Abhi\\decimaltobinnary.cpp","tests":[{"id":1643962746749,"input":"10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Abhi\\decimaltobinnary.cpp","group":"local","local":true}
+{"name":"Local: decimaltobinnary","url":"d:\\C++ Abhi\\decimaltobinnary.cpp","tests":[{"id":1644227555433,"input":"3","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Abhi\\decimaltobinnary.cpp","group":"local","local":true}

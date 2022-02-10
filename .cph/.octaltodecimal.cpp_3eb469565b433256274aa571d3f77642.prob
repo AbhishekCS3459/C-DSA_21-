@@ -1,1 +1,1 @@
-{"name":"Local: octaltodecimal","url":"d:\\C++ Abhi\\octaltodecimal.cpp","tests":[{"id":1643865477701,"input":"17","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Abhi\\octaltodecimal.cpp","group":"local","local":true}
+{"name":"Local: octaltodecimal","url":"d:\\C++ Abhi\\octaltodecimal.cpp","tests":[{"id":1643865477701,"input":"17","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Abhi\\octaltodecimal.cpp","group":"local","local":true}
