@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
     }
     int temp, minNo, location;
 
-    for (int i = 0; i < (n - 1); i++) // here we take i<(size-1) as the last element is sorted automatically
+    for (int i = 0; i < (n - 1); i++)   // here we take i<(size-1) as the last element is sorted automatically
     {
         minNo = arr[i];
         location = i;
