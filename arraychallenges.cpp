@@ -3,16 +3,10 @@
 // Approach- Make a variable and give it value such that it will store max upto ith element
 // 1) keep a variable mx which stores the maximum till ith element 
 // 2)iterate over the array and update
-#include<bits\stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    int n;
-    int arr[n];
-    for (int i = 0; i < count; i++)
-    {
-        /* code */
-    }
-    
+    cout<<"Hello";
     return 0;
 }
