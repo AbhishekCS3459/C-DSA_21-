@@ -7,6 +7,24 @@
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    cout<<"Hello";
+int n;
+cin>>n;
+int arr[n];
+cout<<"Enter the elements of array"<<endl;
+for (int i = 0; i < n; i++)
+{
+    cin>>arr[i];
+}
+int mx=INT_MIN;
+int i;
+cout<<"Enter the value upto which you want max"<<endl;
+cin>>i;
+for (int k = 0; k <i; k++)
+{
+    mx=max(mx,arr[k]);
+}
+cout<<"Max till i is "<<endl;
+cout<<mx;
+
     return 0;
 }
