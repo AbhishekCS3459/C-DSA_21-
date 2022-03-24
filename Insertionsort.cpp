@@ -21,7 +21,7 @@ int main()
         }
         arr[j + 1] = temp;
     }
-    cout << "Sorted array" << endl;
+    cout << endl<<"Sorted array" << endl;
     for (int i = 0; i < n; i++)
     {
         cout << arr[i]<<" ";
