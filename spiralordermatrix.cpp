@@ -38,7 +38,7 @@ int main()
 
         // Here we are moving towards right to left and decrementing as well
         // Here the row is fixed and we are varing the column
-        for (int col = column_end; col >= column_start; col--)
+        for ( int col = column_end; col >= column_start; col--)
             cout << arr[row_end][col] << " ";
         row_end--;
 
